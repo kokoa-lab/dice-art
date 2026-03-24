@@ -4,3 +4,7 @@ compatibility_date = "2026-03-01"
 [assets]
 directory = "./dist"
 not_found_handling = "single-page-application"
+
+# 모니터링 및 로그 추적(Observability) 활성화 설정
+[observability]
+enabled = true
