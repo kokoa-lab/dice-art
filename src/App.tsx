@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Settings, Upload, Image as ImageIcon, Loader2, Download, Box } from 'lucide-react';
+import { Upload, Image as ImageIcon, Loader2, Download, Box } from 'lucide-react';
 import { processImageFile } from './utils/processImage';
 import type { ProcessImageResult } from './workers/imageProcessor';
 import DiceArt3D from './components/DiceArt3D';
